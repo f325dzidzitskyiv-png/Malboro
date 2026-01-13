@@ -1,0 +1,136 @@
+.main {
+  background-color: rgb(14, 12, 12);
+}
+
+.main1 {
+  background: url(img/mainphone.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-attachment: fixed;
+  opacity: 0.70;
+
+  a {
+    color: rgb(255, 255, 255);
+    display: block;
+  }
+  p {
+    align-self: flex-start;
+  }
+}
+
+.join {
+  background: url(https://i.pinimg.com/736x/44/c9/d3/44c9d387e50c32846d3ce99658fcf98e.jpg);
+  text-align: center;
+  padding: 60px;
+  background-position:center;
+  background-size:1550px;
+  background-repeat: no-repeat;
+  background-position: center;
+    opacity: 0.70;
+    background-attachment: fixed;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  display: block;
+  align-items: center;
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+}
+
+.join11 {
+  background: rgba(0, 0, 0, 0.81);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 10px 100px;
+}
+
+.Contacts {
+  background: url(img/Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.posts {
+  padding-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  padding: 133px;
+}
+
+.posts .card {
+  max-width: 32%;
+  img {
+    max-width: 100%;
+  }
+}
+
+.logo {
+  font-family: "Jacques Francois Shadow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 63px;
+  text-align: right;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.text1 {
+  font-family: "Afacad";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  
+
+  color: #ffffff;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin:0 auto;
+
+  button {
+    background: #774949;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Afacad";
+    cursor: pointer;
+    &.active {
+      background: #ff6a00;
+    }
+  }
+}
+
+
+.filter2{
+  text-align: center;
+  color: #ffffff;
+font-family: "Afacad";
+  font-style: italic;
+}
+

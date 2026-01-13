@@ -1,0 +1,17 @@
+.contact {
+  background-color: #090606;
+  color: white;
+}
+
+body {
+  font-family: sens-serif;
+  margin: 20px;
+  background-color: rgb(243, 124, 38);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}

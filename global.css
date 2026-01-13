@@ -1,0 +1,60 @@
+body {
+  background-color: #1d1b1b;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a:not(.link) {
+  text-decoration: none;
+  color: white;
+  border: 3px solid #774949;
+  padding: 10px 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: "Afacad";
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-family: "Afacad";
+  display: inline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  img {
+    max-width: 150px;
+  }
+}
+
+.logo {
+  font-size: 32px;
+}
+
+header a {
+  border: 3px solid #774949;
+  padding: 10px 50px;
+}
+
+.favorite_post img{
+  margin-left: 30px;
+}
+.btn-2 {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
