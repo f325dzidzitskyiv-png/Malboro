@@ -1,0 +1,28 @@
+.ktm {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+}
+
+.ktm-info img {
+  height: 300px;
+  object-fit: cover;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+.ktm img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
