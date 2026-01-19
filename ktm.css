@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: orange;
 }
 
 .ktm-info img {
@@ -25,4 +25,8 @@ h2 {
   max-width: 50%;
   display: block;
   margin: 0 auto;
+}
+
+h3 {
+  color: orange;
 }
