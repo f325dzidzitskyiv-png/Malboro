@@ -1,77 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Document</title>
-  <link rel="stylesheet" href="global.css" />
-  <link rel="stylesheet" href="main.css" />
-</head>
+  <body class="main">
+    <header>
+      <a href="index.html#filters">Choose your type </a>
+      <a class="logo" href="index.html">TurboHub</a>
+      <a href="profile.html">Profile</a>
+    </header>
+    <main>
+      <section class="main1">
+        <div class="left">
+          <a href="Enduro.html">Enduro</a>
+          <a href="ktm.HTML">Street</a>
+          <a href="sport.html">Sport</a>
+        </div>
+        <p class="text1">
+          TurboHub - сайт де ти можеш обрати свій тип молоциклу або знайти свій клуб
+        </p>
+        <div class="right">
+          <a href="contact.html">Contacts</a>
+          <a href="about.html">News</a>
+          <a href="about.html">Help</a>
+        </div>
+      </section>
 
-<body class="main">
-  <header>
-    <a href="index.html#filters">Choose your type </a>
-    <a class="logo" href="index.html">TurboHub</a>
-    <a href="profile.html">Profile</a>
-  </header>
-  <main>
-    <section class="main1">
-      <div class="left">
-        <a href="about.html">Enduro</a>
-        <a href="ktm.HTML">Street</a>
-        <a href="about.html">Sport</a>
-      </div>
-      <p class="text1">
-        TurboHub - сайт де ти можеш обрати свій тип молоциклу або знайти свій клуб
-      </p>
-      <div class="right">
-        <a href="contact.html">Contacts</a>
-        <a href="about.html">News</a>
-        <a href="about.html">Help</a>
-      </div>
-    </section>
+      <section id="filters" class="filters">
+        <h1 class="filter2">Filters</h1>
+        <div class="filter-buttons">
+          <button data-filter="all" class="filter-button">All</button>
+          <button data-filter="chopper" class="filter-button">Chopper</button>
+          <button data-filter="street" class="filter-button">Street</button>
+          <button data-filter="retro" class="filter-button">Retro</button>
+        </div>
+      </section>
+      <section class="posts">
+        <div class="card" data-id="1" data-category="chopper">
+          <img data-category="chopper" src="img/photo1.png" />
+          <img class="like" src="img/like2.svg" alt="" />
+        </div>
 
-    <section id="filters" class="filters">
-      <h1 class="filter2"> Filters </h1>
-      <div class="filter-buttons">
-        <button data-filter="all" class="filter-button">All</button>
-        <button data-filter="chopper" class="filter-button">Chopper</button>
-        <button data-filter="street" class="filter-button">Street</button>
-        <button data-filter="retro" class="filter-button">Retro</button>
-      </div>
-    </section>
-    <section class="posts">
-      <div class="card" data-id="1" data-category="chopper">
-        <img data-category="chopper" src="img/photo1.png" />
-        <img class="like" src="img/like2.svg" alt="" />
-      </div>
+        <div class="card" data-id="2" data-category="street">
+          <img data-category="street" src="img/photo2.png" />
+          <img class="like" src="img/like2.svg" alt="" />
+        </div>
 
-      <div class="card" data-id="2" data-category="street">
-        <img data-category="street" src="img/photo2.png" />
-        <img class="like" src="img/like2.svg" alt="" />
-      </div>
+        <div class="card" data-id="3" data-category="retro">
+          <img data-category="retro" src="img/photo3.png" />
+          <img class="like" src="img/like2.svg" alt="" />
+        </div>
+      </section>
 
-      <div class="card" data-id="3" data-category="retro">
-        <img data-category="retro" src="img/photo3.png" />
-        <img class="like" src="img/like2.svg" alt="" />
-      </div>
-    </section>
+      <section class="join">
+        <h1>Приєднуйся</h1>
 
-    <section class="join">
-      <h1>Приєднуйся</h1>
+        <p>Цей клуб про різноманітні види молоциклів</p>
+        <a class="join11" href="about.html">Приєднатися</a>
+      </section>
+    </main>
 
-      <p>Цей клуб про різноманітні види молоциклів</p>
-      <a class="join11" href="about.html">Приєднатися</a>
-    </section>
-  </main>
-
-  <footer>
-    <img src="img/logo1.png" alt="" />
-    <p><a class="link" href="contact.html">Контакти</a> <br />&copy; 2025</p>
-    <img src="img/logo2.png" alt="" />
-  </footer>
-  <script src="main.js"></script>
-  <script src="script.js" defer></script>
-</body>
-
+    <footer>
+      <img src="img/logo1.png" alt="" />
+      <p><a class="link" href="contact.html">Контакти</a> <br />&copy; 2025</p>
+      <img src="img/logo2.png" alt="" />
+    </footer>
+    <script src="main.js"></script>
+    <script src="script.js" defer></script>
+  </body>
 </html>
