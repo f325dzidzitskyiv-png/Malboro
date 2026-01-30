@@ -4,7 +4,7 @@ const likedPosts = document.cookie
   .split("; ")
   .filter((row) => row.startsWith("liked_posts"))
 
-  likedPosts.forEach((post) => {
+likedPosts.forEach((post) => {
   const postId = post.split("=")[1];
 
   const img = document.createElement("img");
