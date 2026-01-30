@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: space-around;
   background-attachment: fixed;
-  opacity: 0.70;
+  opacity: 0.7;
 
   a {
     color: rgb(255, 255, 255);
@@ -29,12 +29,12 @@
   background: url(https://i.pinimg.com/736x/44/c9/d3/44c9d387e50c32846d3ce99658fcf98e.jpg);
   text-align: center;
   padding: 60px;
-  background-position:center;
-  background-size:1550px;
+  background-position: center;
+  background-size: 1550px;
   background-repeat: no-repeat;
   background-position: center;
-    opacity: 0.70;
-    background-attachment: fixed;
+  opacity: 0.7;
+  background-attachment: fixed;
 
   font-family: "Inter";
   font-style: normal;
@@ -101,7 +101,6 @@
   font-size: 28px;
   line-height: 37px;
   text-align: center;
-  
 
   color: #ffffff;
 }
@@ -110,7 +109,7 @@
   display: flex;
   gap: 15px;
   justify-content: center;
-  margin:0 auto;
+  margin: 0 auto;
 
   button {
     background: #774949;
@@ -126,11 +125,14 @@
   }
 }
 
-
-.filter2{
+.filter2 {
   text-align: center;
   color: #ffffff;
-font-family: "Afacad";
+  font-family: "Afacad";
   font-style: italic;
 }
 
+.card {
+  position: relative;
+  background: transparent;
+}

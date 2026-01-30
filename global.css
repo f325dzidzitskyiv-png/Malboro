@@ -52,9 +52,22 @@ header a {
   padding: 10px 50px;
 }
 
-.favorite_post img{
+.favorite_post img {
   margin-left: 30px;
 }
 .btn-2 {
   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.like {
+  cursor: pointer;
+  margin: 12px auto;
+  width: 38px;
+  opacity: 0.65;
+  position: absolute;
+  bottom: 0;
+
+  &.liked {
+    opacity: 1;
+  }
 }

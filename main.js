@@ -6,7 +6,7 @@ function displayCards(filter) {
   moto_cards.forEach((card) => {
     card.style.display = "none";
     if (filter == "all" || card.dataset.category == filter) {
-      card.style.display = "block"
+      card.style.display = "block";
     }
   });
 }
@@ -22,9 +22,20 @@ filter_buttons.forEach((button) => {
 like_buttons.forEach((button) => {
   button.addEventListener("click", () => {
     const id = button.parentElement.dataset.id;
+    button.classList.add("liked");
+    document.cookie = `liked_posts${id}=${id};`;
 
-      document.cookie = `liked_posts${id}=${id};`; 
-  
     alert("Ви лайкнули цей пост! \n Зможете переглянути його у вашому профілі.");
+  });
+});
+
+like_buttons.forEach((button) => {
+  const likedPosts = document.cookie.split("; ").filter((row) => row.startsWith("liked_posts"));
+
+  likedPosts.forEach((post) => {
+    const postId = post.split("=")[1];
+    if (button.parentElement.dataset.id === postId) {
+      button.classList.add("liked");
+    }
   });
 });
